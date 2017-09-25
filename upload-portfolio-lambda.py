@@ -11,6 +11,7 @@ def lambda_handler(event, context):
     topic = sns.Topic('arn:aws:sns:us-east-1:671515529864:deployPortfolioTopic')
     s3 = boto3.resource('s3')
 
+#start of CodePipeline logic, need to revise. Lambda fails
     location = {
         "bucketName": "portfolio.flowworkconsulting.com",
         "objectKey": "portfoliobuild.zip"
