@@ -1,15 +1,23 @@
 {
-  "name": "myReactportfolio",
+  "name": "myreactportfolio",
   "version": "1.0.0",
   "description": "Sample server code",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack": "webpack",
-    "webpack-watch":"webpack --watch"
+    "webpack-watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfcp720/myReactportfolio.git"
   },
   "author": "Jesus Colon <jfcp720@gmail.com>",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jfcp720/myReactportfolio/issues"
+  },
+  "homepage": "https://github.com/jfcp720/myReactportfolio#readme",
   "dependencies": {
     "express": "^4.16.1",
     "path": "^0.12.7",
@@ -21,13 +29,5 @@
     "babel-loader": "^7.1.2",
     "babel-preset-react": "^6.24.1",
     "webpack": "^3.8.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jfcp720/myReactportfolio.git"
-  },
-  "bugs": {
-    "url": "https://github.com/jfcp720/myReactportfolio/issues"
-  },
-  "homepage": "https://github.com/jfcp720/myReactportfolio#readme"
+  }
 }
